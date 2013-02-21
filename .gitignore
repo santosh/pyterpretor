@@ -1,0 +1,22 @@
+# Python specific
+*pycache*/
+*.py[cod]
+
+# Created by system and editors.
+.netrwhist
+*.diff
+.netrwhist
+*.log
+*.tmp
+*.swp
+*~
+*.swo
+.DS_Store
+._*
+Thumbs.db
+.cache
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
