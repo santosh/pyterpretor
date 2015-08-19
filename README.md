@@ -8,10 +8,6 @@ Put the following lines in your shell's configuration file:
 
     export PYTHONSTARTUP=/path/to/pyterpretor.py
 
-Everytime you enter the interpreter put this line (I know its tedious, I will find a way soon):
-
-    def vim(fname): _vim(fname, globals())
-
 ## Usages
 
 Edit any file like this:

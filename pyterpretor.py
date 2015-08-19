@@ -20,3 +20,5 @@ def _vim(fname, globs):
     modname = basename.rpartition('.')[0]
     m = imp.load_source(modname, fname)
     globs[modname] = m
+
+def vim(fname): _vim(fname, globals())
